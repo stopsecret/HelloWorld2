@@ -6,6 +6,7 @@ public class Hello {
 	 */
 	public static void main(String[] args){
 		//Important announcement
+		System.out.println("I'm oblivious to the other branch right now...");
 		System.out.println("Here ye Here ye : important announcement");
 		
 		System.out.println("Hello World!");
