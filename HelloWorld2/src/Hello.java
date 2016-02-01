@@ -9,5 +9,8 @@ public class Hello {
 		System.out.println("Here ye Here ye : important announcement");
 		
 		System.out.println("Hello World!");
+		
+		//Sign off
+		System.out.println("Goodbye World!");
 	}
 }
