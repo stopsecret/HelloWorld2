@@ -8,6 +8,7 @@ public class Hello {
 		//Important announcement
 		System.out.println("Let's try this conflict again");
 		System.out.println("I'm oblivious to the other branch right now...");
+		System.out.println("This should cause a nice conflict");
 		System.out.println("Here ye Here ye : important announcement");
 		
 		System.out.println("Hello World!");
