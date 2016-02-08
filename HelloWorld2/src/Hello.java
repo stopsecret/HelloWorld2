@@ -18,6 +18,8 @@ public class Hello {
 		
 		//Display the date
 		DisplayDate();
+		//Display free memory
+		DisplayFreeMemory();
 		
 		//Sign off
 		System.out.println("Goodbye World!");
@@ -27,5 +29,9 @@ public class Hello {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		Date date = new Date();
 		System.out.println(dateFormat.format(date)); //2014/08/06 15:59:48
+	}
+	public static void DisplayFreeMemory()
+	{
+		System.out.println("Free memory (bytes): " + Runtime.getRuntime().freeMemory());
 	}
 }
